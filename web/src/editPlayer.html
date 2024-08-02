@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Editar Jogador</title>
+</head>
+<body>
+    <section class="container">
+        <h1>Edição de dados do Jogador</h1>
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Informe o nome do Jogador">
+          </div>
+          <div class="mb-3">
+            <label for="funcao" class="form-label">Função</label>
+            <input type="text" class="form-control" id="funcao" placeholder="Ex: Duelista, Sentinela, Smoker...">
+          </div>
+          <div class="mb-3">
+            <label for="personagem" class="form-label">Personagem</label>
+            <input type="text" class="form-control" id="personagem" placeholder="Informe o nome do Personagem">
+          </div>
+          <div class="mb-3">
+            <label for="personagem" class="form-label">Time</label>
+            <input type="number" class="form-control" id="time" placeholder="Informe o time do Jogador">
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" onclick="editar()">Confirmar</button>
+            <button type="button" class="btn btn-primary"><a href="./allPlayers.html" class="link-light link-offset-2 link-underline-opacity-2 link-underline-opacity-0">Lista de Jogadores</a></button>
+          </div>
+    </section>      
+
+    <script src="./js/editPlayer.js"></script>
+</body>
+</html>
